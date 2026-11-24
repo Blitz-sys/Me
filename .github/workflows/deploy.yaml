@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
@@ -46,8 +46,8 @@ jobs:
       - name: Submit to IndexNow
         uses: jakob-bagterp/index-now-submit-sitemap-urls-action@v1
         with:
-          host: the-shattered-crown.github.io
+          host: blitz-sys.github.io
           api_key: ${{ secrets.INDEX }}
-          api_key_location: https://the-shattered-crown.github.io/Recruitment-page/${{ secrets.INDEX }}.txt
+          api_key_location: https://blitz-sys.github.io/Me/${{ secrets.INDEX }}.txt
           urls: |
-            # https://the-shattered-crown.github.io//index.html
+            https://blitz-sys.github.io/Me/index.html

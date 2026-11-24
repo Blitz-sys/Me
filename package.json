@@ -5,6 +5,6 @@
   "source": "src/*.html",
   "scripts": {
     "dev": "bunx live-server",
-    "package": "bunx parcel build --public-url"
+    "package": "bunx parcel build --public-url ."
   }
 }
