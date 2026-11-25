@@ -1,5 +1,5 @@
 html {
-    background-color: ghostwhite;
+    background-color: #F4F0E8;
 }
 body {
     border: solid;
@@ -11,10 +11,21 @@ body {
 nav {
     border: solid;
     border-radius: 1em;
-    background-color: antiquewhite;
+    background-color: #D8CFC0;
+    margin-bottom: 2em;
 }
 nav a {
-    display: block;
-    margin: 0.7em;
+    color: #526354;
+    margin-bottom: 1em;
+}
+ a {
+    display: inline-block;
     font-size: 1.5em;
+    text-decoration: none;
+}
+h1, h2 {
+    color: sandybrown;
+}
+.embedded-heading {
+    color: saddlebrown;
 }
