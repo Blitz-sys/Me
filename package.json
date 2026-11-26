@@ -4,7 +4,7 @@
   "private": true,
   "source": "src/*.html",
   "scripts": {
-    "dev": "bunx live-server",
-    "package": "bunx parcel build --public-url ."
+    "dev": "bunx --silent live-server src --open=index.html",
+    "package": "bunx parcel build --public-url . --no-source-maps"
   }
 }
